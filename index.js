@@ -22,13 +22,15 @@ const numbers = [
 
 */
 
+// praktická poznámka na zakomentování více řádků najednou - označit  Ctrl + (+vedle backspacu na klavesnici, stejný klik znovu odstraní jednořádkový koment)
+
 const numbers = [
     -24, -11, 27, 29, -4, -28, -21, -14, 3, -8, 24, 19, -25, -2, -1, 11, 32, -31, 5
   ];
 
   //1. Vypište do stránky všechna čísla.
-  
-  document.body.innerHTML += [numbers];
+ 
+document.body.innerHTML += [numbers];
 
   // 2.Vypište do stránky druhé mocniny všech čísel.
 const druhaMocnina = numbers.map((cisloMoje) =>cisloMoje ** 2 )  // pro druhou mocninu se používá operátor ** 
@@ -40,18 +42,22 @@ druhaMocnina.forEach(cisloMoje => {
   //poznámka pro estetické úpravy-  pokud bychom chtěli vypsat čísla vedle sebe a oddělené čárkou dalo by se použít funkce join  takto: document.body.innerHTML += "druhaMocnina".join(" , ");  ale já jsem zvolila funkci klasickou pod sebe - pro mě přehlednější
 
 
-  //3.Vypište do stránky pouze záporná čísla.
-zaporneCislo = 
+  //3.Vypište do stránky pouze záporná čísla. -- takže čísla menší než 0 s podmínkou if
+const zaporneCislo = numbers.forEach(cisloMoje => {
+    if (cisloMoje < 0 ) { // pokud je číslo menší než 0 tedy záporné vypíše se do stránky - chceme každé na svůj řádek pro přehlednost a možnou kontrolu
+        document.body.innerHTML += `<h1>${cisloMoje}</h1>`; //h1 použito ať vidím že to funguje - ano funguje
+    }
+});
 
-  //4.Vypište do stránky absolutní hodnotu všech čísel. -- co je myšleno absolutní hodnotou? -- 
 
+//4.Vypište do stránky absolutní hodnotu všech čísel. 
+  /*-- co je myšleno absolutní hodnotou? -- odpověď od Naty: Absolútni hodnota je matematický pojem - v jednoduchosti je to vzdialenosť čísla od nuly ( takze keď je tam číslo 5, ma to vrátiť číslo 5; keď je tam číslo -11, má to vrátiť číslo 11) */
+/*
 absolutniHodnota =
 
-    //5.Vypište do stránky pouze sudá čísla.
+    //5.Vypište do stránky pouze sudá čísla. -- pozn. kouknout do lekce 31.3. na cvicene z hodiny --
 
 sudeCislo = 
-
-// praktická poznámka na zakomentování více řádků najednou - označit  Ctrl + (+vedle backspacu na klavesnici, stejný klik znovu odstraní jednořádkový koment)
 
 
 // 6.Vypište do stránky pouze ta čísla, jejíchž absolutní hodnota je dělitelná třemi.
@@ -80,3 +86,4 @@ prumerCelkovy =
 // 12.Spočítejte součet všech kladných čísel v poli.
 
 soucetKLadnychCisel =
+*/
