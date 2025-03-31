@@ -27,6 +27,18 @@ const numbers = [
   ];
 
   //1. Vypište do stránky všechna čísla.
-
   
   document.body.innerHTML += [numbers];
+
+  // 2.Vypište do stránky druhé mocniny všech čísel.
+const druhaMocnina = numbers.map((cisloMoje) =>cisloMoje ** 2 )  // pro druhou mocninu se používá operátor ** 
+ 
+druhaMocnina.forEach(cisloMoje => {
+    document.body.innerHTML += `<p>${cisloMoje}</p>`; //vypsání čísel druhých mocnin tedy cisloMoje do stránky pod sebe
+  });
+
+  // document.body.innerHTML += "druhaMocnina"; - pokud bychom chtěli vypsat čísla vedle sebe dalo by se použít funkce join - já jsem zvolila funkci klasickou pod sebe - pro mě přehlednější
+
+
+  //3.Vypište do stránky pouze záporná čísla.
+
