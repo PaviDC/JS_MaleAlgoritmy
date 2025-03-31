@@ -50,40 +50,47 @@ const zaporneCislo = numbers.forEach(cisloMoje => {
 });
 
 
-//4.Vypište do stránky absolutní hodnotu všech čísel. 
-  /*-- co je myšleno absolutní hodnotou? -- odpověď od Naty: Absolútni hodnota je matematický pojem - v jednoduchosti je to vzdialenosť čísla od nuly ( takze keď je tam číslo 5, ma to vrátiť číslo 5; keď je tam číslo -11, má to vrátiť číslo 11) */
-/*
-absolutniHodnota =
+        //4.Vypište do stránky absolutní hodnotu všech čísel. 
+         /*-- co je myšleno absolutní hodnotou? -- odpověď od Naty: Absolútni hodnota je matematický pojem - v jednoduchosti je to vzdialenosť čísla od nuly ( takze keď je tam číslo 5, ma to vrátiť číslo 5; keď je tam číslo -11, má to vrátiť číslo 11) 
+dovypocitat
+        absolutniHodnota = */
 
-    //5.Vypište do stránky pouze sudá čísla. -- pozn. kouknout do lekce 31.3. na cvicene z hodiny --
+    //5.Vypište do stránky pouze sudá čísla. -- pozn. kouknout do lekce 31.3. na cvicene z hodiny -- musi byt delitelne 2;
 
-sudeCislo = 
+//sudeCislo = 
 
 
 // 6.Vypište do stránky pouze ta čísla, jejíchž absolutní hodnota je dělitelná třemi.
 
-absolutniHodnotaDelena3 = 
+//absolutniHodnotaDelena3 = 
 
-// 7.Vypište do stránky jak daleko je každé číslo v seznamu od čísla 5.
+// 7.Vypište do stránky jak daleko je každé číslo v seznamu od čísla 5. -- vysvetleni o co jde -- tzn. pokud mam cislo 8 tak v pozici od cisla 5 je to 3 -- 
 
-poziceOdcisla5
+//poziceOdcisla5
 
-// 8.Vypište do stránky druhé mocnicny vzdáleností všech čísel od čísla 5. -- tomu teda nerozumim ?? co se chce?
+// 8.Vypište do stránky druhé mocnicny vzdáleností všech čísel od čísla 5. -- tomu teda nerozumim ?? co se chce? -- podobne prikladu 7. ale jeste to 
 
 
-// 9.Spočítejte, kolik je v seznamu záporných čísel.
+// 9.Spočítejte, kolik je v seznamu záporných čísel. -- nejprve zobrazit popř. return záporná čísla - viz uloha 3. a pak jejich počet 
 
-pocetZapornychCisel =
+//pocetZapornychCisel =
 
-// 10.Spočítejte součet všech čísel v poli.
+// 10.Spočítejte součet všech čísel v poli. -- najít funkci na součet  -- 
 
-soucetCelkovy =
+//soucetCelkovy =
 
-// 11.Spočítejte průměr všech čísel v poli.
+// 11.Spočítejte průměr všech čísel v poli. -- potřebuji sečít všechna čísla tzn. celkový součet viz 10. soucetCelkovy a vydělit počtem čísel tedy kolik jich je  = 19 (to zjistím pomocí length funkce)
 
-prumerCelkovy =
-
-// 12.Spočítejte součet všech kladných čísel v poli.
-
-soucetKLadnychCisel =
+/*kontrola zda mi to ukáže co potřebuji // slozitejsi verze 
+- pro pripadne psani textu kolem - vyuziji interpolaci tedy:
+pocetCisel = numbers.length;
+document.body.innerHTML += `<p>Pocet cisel je:${pocetCisel}</p>`;
 */
+// pro mou aktulální kontrolu stačí jednoduchý zápis takto - klasické vypsání do HTML stránky:
+document.body.innerHTML += (numbers.length); // funguje s i bez kulatých závorek - nemají význam, jen lepší viditelnosti pro mě - lze i bez závorek
+
+prumerCelkovy =  //soucet vydelit poctem cisel tedy /19
+
+// 12.Spočítejte součet všech kladných čísel v poli. -- tzn. vyber cisel vetsi nez 0 a pak nasledny soucet
+
+//soucetKLadnychCisel 
