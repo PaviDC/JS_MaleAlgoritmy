@@ -41,30 +41,42 @@ druhaMocnina.forEach(cisloMoje => {
 
 
   //3.Vypište do stránky pouze záporná čísla.
+zaporneCislo = 
+
+  //4.Vypište do stránky absolutní hodnotu všech čísel. -- co je myšleno absolutní hodnotou? -- 
+
+absolutniHodnota =
+
+    //5.Vypište do stránky pouze sudá čísla.
+
+sudeCislo = 
+
+// praktická poznámka na zakomentování více řádků najednou - označit  Ctrl + (+vedle backspacu na klavesnici, stejný klik znovu odstraní jednořádkový koment)
 
 
-  //4.Vypište do stránky absolutní hodnotu všech čísel. co je myšleno absolutní hodnotou?
-
-
-  //5.Vypište do stránky pouze sudá čísla.
-  // praktická poznámka na zakomentování více řádků najednou - označit  Ctrl + (+vedle backspacu na klavesnici, stejný klik znovu odstraní jednořádkový koment)
 // 6.Vypište do stránky pouze ta čísla, jejíchž absolutní hodnota je dělitelná třemi.
 
+absolutniHodnotaDelena3 = 
 
 // 7.Vypište do stránky jak daleko je každé číslo v seznamu od čísla 5.
 
+poziceOdcisla5
 
-// 8.Vypište do stránky druhé mocnicny vzdáleností všech čísel od čísla 5.
+// 8.Vypište do stránky druhé mocnicny vzdáleností všech čísel od čísla 5. -- tomu teda nerozumim ?? co se chce?
 
 
 // 9.Spočítejte, kolik je v seznamu záporných čísel.
 
+pocetZapornychCisel =
 
 // 10.Spočítejte součet všech čísel v poli.
 
+soucetCelkovy =
 
 // 11.Spočítejte průměr všech čísel v poli.
 
-
+prumerCelkovy =
 
 // 12.Spočítejte součet všech kladných čísel v poli.
+
+soucetKLadnychCisel =
