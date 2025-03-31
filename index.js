@@ -55,12 +55,12 @@ const zaporneCislo = numbers.forEach(cisloMoje => {
 dovypocitat
         absolutniHodnota = */
 
-    //5.Vypište do stránky pouze sudá čísla. -- pozn. kouknout do lekce 31.3. na cvicene z hodiny -- musi byt delitelne 2;
+    //5.Vypište do stránky pouze sudá čísla. -- pozn. kouknout do lekce 31.3. na cvicene z hodiny -- musi byt delitelne 2 bude tam podmínka;
 
 //sudeCislo = 
 
 
-// 6.Vypište do stránky pouze ta čísla, jejíchž absolutní hodnota je dělitelná třemi.
+// 6.Vypište do stránky pouze ta čísla, jejíchž absolutní hodnota je dělitelná třemi. -- opet dalsi podmínka 
 
 //absolutniHodnotaDelena3 = 
 
