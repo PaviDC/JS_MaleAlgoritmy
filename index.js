@@ -37,8 +37,34 @@ druhaMocnina.forEach(cisloMoje => {
     document.body.innerHTML += `<p>${cisloMoje}</p>`; //vypsání čísel druhých mocnin tedy cisloMoje do stránky pod sebe
   });
 
-  // document.body.innerHTML += "druhaMocnina"; - pokud bychom chtěli vypsat čísla vedle sebe dalo by se použít funkce join - já jsem zvolila funkci klasickou pod sebe - pro mě přehlednější
+  //poznámka pro estetické úpravy-  pokud bychom chtěli vypsat čísla vedle sebe a oddělené čárkou dalo by se použít funkce join  takto: document.body.innerHTML += "druhaMocnina".join(" , ");  ale já jsem zvolila funkci klasickou pod sebe - pro mě přehlednější
 
 
   //3.Vypište do stránky pouze záporná čísla.
 
+
+  //4.Vypište do stránky absolutní hodnotu všech čísel. co je myšleno absolutní hodnotou?
+
+
+  //5.Vypište do stránky pouze sudá čísla.
+  // praktická poznámka na zakomentování více řádků najednou - označit  Ctrl + (+vedle backspacu na klavesnici, stejný klik znovu odstraní jednořádkový koment)
+// 6.Vypište do stránky pouze ta čísla, jejíchž absolutní hodnota je dělitelná třemi.
+
+
+// 7.Vypište do stránky jak daleko je každé číslo v seznamu od čísla 5.
+
+
+// 8.Vypište do stránky druhé mocnicny vzdáleností všech čísel od čísla 5.
+
+
+// 9.Spočítejte, kolik je v seznamu záporných čísel.
+
+
+// 10.Spočítejte součet všech čísel v poli.
+
+
+// 11.Spočítejte průměr všech čísel v poli.
+
+
+
+// 12.Spočítejte součet všech kladných čísel v poli.
