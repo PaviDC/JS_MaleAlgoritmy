@@ -4,9 +4,7 @@
 zadání úkolu:
 Založte si nový JavaScriptový program a na jeho začátek vložte následující seznam čísel. Budeme jej používat ve všech následujících úlohách.
 
-const numbers = [
-  -24, -11, 27, 29, -4, -28, -21, -14, 3, -8, 24, 19, -25, -2, -1, 11, 32, -31, 5
-];
+const numbers = [  -24, -11, 27, 29, -4, -28, -21, -14, 3, -8, 24, 19, -25, -2, -1, 11, 32, -31, 5];
 1. Vypište do stránky všechna čísla. _ done
 2.Vypište do stránky druhé mocniny všech čísel. _done
 3.Vypište do stránky pouze záporná čísla. _ done
